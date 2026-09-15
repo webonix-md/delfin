@@ -719,13 +719,13 @@ img { display: block; max-width: 100%; object-fit: cover; }
     top: 100%;
     left: 0;
     right: 0;
-    background: var(--ink);
+    background: #0e4652;
     flex-direction: column;
     gap: 0;
     padding: 8px 20px 16px;
   }
   .nav__links.is-open { display: flex; }
-  .nav__links a { padding: 12px 0; border-bottom: 1px solid rgba(255,255,255,.1); }
+  .nav__links a { padding: 12px 0; border-bottom: 1px solid rgba(255,255,255,.1);font-size: 20px; text-align: center; }
   .nav { z-index: 20; }
   .nav__inner > .pill-btn { display: none; }
   .nav__toggle { display: block; }
