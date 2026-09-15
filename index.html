@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Дельфин — плавание для детей 7–10 лет в Кишинёве</title>
+<meta name="description" content="Индивидуальные и групповые занятия плаванием для детей 7–10 лет. Аквацентр «Дельфин», Кишинёв. Первое занятие — бесплатно.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ru_RU">
+<meta property="og:title" content="Дельфин — плавание для детей 7–10 лет в Кишинёве">
+<meta property="og:description" content="Индивидуальные и групповые занятия плаванием для детей 7–10 лет. Аквацентр «Дельфин», Кишинёв. Первое занятие — бесплатно.">
+<meta property="og:image" content="img/og-image.png">
+<meta property="og:image:width" content="623">
+<meta property="og:image:height" content="436">
+<meta property="og:image" content="img/og-image2.png">
+<meta property="og:image:width" content="738">
+<meta property="og:image:height" content="371">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Дельфин — плавание для детей 7–10 лет в Кишинёве">
+<meta name="twitter:description" content="Индивидуальные и групповые занятия плаванием для детей 7–10 лет. Аквацентр «Дельфин», Кишинёв. Первое занятие — бесплатно.">
+<meta name="twitter:image" content="img/og-image2.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;600;700&family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="container nav__inner">
+    <a href="#" class="nav__logo">🐬 Дельфин</a>
+    <div class="nav__links">
+      <a href="#formats">Форматы</a>
+      <a href="#trainer">Тренер</a>
+      <a href="#pool">Бассейн</a>
+      <a href="#pricing">Цены</a>
+      <a href="#reviews">Отзывы</a>
+      <a href="#faq">Вопросы</a>
+    </div>
+    <a href="#final-cta" class="pill-btn" style="padding:6px 6px 6px 22px;font-size:13px;">
+      Записаться
+      <span class="pill-btn__cap"><svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+    </a>
+    <button class="nav__toggle" id="navToggle" aria-label="Меню"><span></span></button>
+  </div>
+</nav>
+
+<!-- ===== CINEMATIC HERO + HORIZONTAL SCROLL (single combined pin) =====
+     Original vertical sections kept below, commented out, in case we revert this experiment. -->
+<section class="cine" id="cine">
+  <div class="cine__pin">
+    <div class="cine__bg"></div>
+    <div class="cine__media" id="cineMedia">
+      <video id="heroSwimVideo" src="video/hero-swim-2-web.mp4" autoplay muted loop playsinline></video>
+    </div>
+    <div class="cine__track" id="cineTrack">
+
+      <div class="cine__slide">
+        <div class="hero-expand__copy" id="heroExpandCopy">
+          <div class="hero-expand__badge-wrap" id="heroExpandBadge">
+            <span class="hero__badge">Аквацентр «Дельфин» · Кишинёв</span>
+          </div>
+          <h1 class="display hero-expand__title">
+            <span class="hero-expand__title-half hero-expand__title-half--left" id="titleLeft">От первого страха воды —</span>
+            <span class="hero-expand__title-half hero-expand__title-half--right" id="titleRight">до уверенного кроля</span>
+          </h1>
+          <div class="hero-expand__foot" id="heroExpandFoot">
+            <p class="hero__subtitle">Индивидуальные занятия для тех, кто в воду ещё не заходил, и групповые — для тех, кто уже готов расти.</p>
+            <div class="hero__actions">
+              <a href="#final-cta" class="pill-btn">Записаться<span class="pill-btn__cap"><svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></a>
+              <a href="#formats" class="pill-btn pill-btn--ghost">Форматы и цены<span class="pill-btn__cap"><svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="#0b2545" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="cine__slide">
+        <div class="h-scroll__card h-scroll__card--stats">
+          <div class="stats__grid">
+            <div class="stat"><b>200+</b><span>учеников научились плавать</span></div>
+            <div class="stat"><b>8 лет</b><span>опыта работы именно с детьми</span></div>
+            <div class="stat"><b>29–30°</b><span>комфортная температура воды</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="cine__slide">
+        <div class="h-scroll__card">
+          <span class="label label--light">ЗНАКОМАЯ СИТУАЦИЯ?</span>
+          <h2 class="h-scroll__heading">Если это про вашего ребёнка — вы не одни</h2>
+          <div class="h-scroll__pain-grid">
+            <p><b>01</b> Ребёнок не заходит в воду глубже, чем по пояс, даже с кругом или нарукавниками.</p>
+            <p><b>02</b> На уроках физкультуры видно, что другие дети держатся на воде увереннее.</p>
+            <p><b>03</b> Уже пробовали групповые занятия — тренер не успевал уделить внимание.</p>
+            <p><b>04</b> Плавает «по-своему», боится нырять и опускать лицо в воду.</p>
+          </div>
+          <p class="h-scroll__closing">Это не значит, что упущено время — значит, просто нужен формат, который подходит именно сейчас.</p>
+        </div>
+      </div>
+
+      <div class="cine__slide">
+        <div class="h-scroll__card" id="formats">
+          <span class="label label--light">ВЫБЕРИТЕ ФОРМАТ</span>
+          <h2 class="h-scroll__heading">Какой вариант подходит вашему ребёнку</h2>
+          <div class="h-scroll__formats-grid">
+            <div class="h-scroll__format">
+              <h3>Индивидуальные</h3>
+              <p>Ребёнок не умеет плавать совсем, боится воды или нужен свой темп</p>
+              <div class="h-scroll__format-price">350 MDL <span>/ занятие</span></div>
+              <a href="#final-cta" class="pill-btn pill-btn--sky">Записаться<span class="pill-btn__cap"><svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="#0b2545" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></a>
+            </div>
+            <div class="h-scroll__format">
+              <h3>Групповые</h3>
+              <p>Ребёнок уже держится на воде, хочет прогрессировать среди сверстников</p>
+              <div class="h-scroll__format-price">180 MDL <span>/ занятие</span></div>
+              <a href="#final-cta" class="pill-btn pill-btn--sky">Записаться<span class="pill-btn__cap"><svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="#0b2545" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="cine__slide">
+        <div class="h-scroll__card h-scroll__card--trainer" id="trainer-d">
+          <div class="h-scroll__trainer-top">
+            <img class="h-scroll__trainer-photo" src="img/coach.jpg" alt="Виктор Кожокару, тренер по плаванию">
+            <div class="h-scroll__trainer-body">
+              <span class="label label--light">О ТРЕНЕРЕ</span>
+              <h2 class="h-scroll__heading" style="margin:10px 0 6px;">Виктор Кожокару</h2>
+              <div class="h-scroll__trainer-creds">КМС по плаванию · 8 лет с детьми · водобоязнь</div>
+              <p class="h-scroll__trainer-bio">«Не заставлять, только предлагать следующий маленький шаг» — методика вокруг терпения, а не техники.</p>
+            </div>
+          </div>
+          <div class="h-scroll__trainer-methods">
+            <div><b>01</b><h4>Безопасность прежде всего</h4><p>Рядом с ребёнком в воде, никаких «бросить и пусть выплывает»</p></div>
+            <div><b>02</b><h4>Маленькие шаги</h4><p>На каждом занятии один понятный результат, без ощущения неудачи</p></div>
+            <div><b>03</b><h4>Игра, а не тренировка</h4><p>В этом возрасте плавание учится через игру, а не через дисциплину</p></div>
+            <div><b>04</b><h4>Обратная связь родителю</h4><p>После занятия — что получилось и над чем работаем дальше</p></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="cine__slide">
+        <div class="h-scroll__card" id="progress-d">
+          <span class="label label--light">ЧЕГО ОЖИДАТЬ</span>
+          <h2 class="h-scroll__heading">Путь от первого занятия до уверенного заплыва</h2>
+          <div class="h-scroll__progress-steps">
+            <div class="h-scroll__step-circle is-active">1</div>
+            <div class="h-scroll__step-line"></div>
+            <div class="h-scroll__step-circle">2</div>
+            <div class="h-scroll__step-line"></div>
+            <div class="h-scroll__step-circle">3</div>
+            <div class="h-scroll__step-line"></div>
+            <div class="h-scroll__step-circle">4</div>
+          </div>
+          <div class="h-scroll__progress-grid">
+            <div><b>Занятия 1–3</b><h4>Знакомство с водой</h4><p>Игры у бортика, привыкание к воде, первые погружения лица — только когда ребёнок сам готов.</p></div>
+            <div><b>Занятия 4–8</b><h4>Первые движения</h4><p>Держится на воде самостоятельно, учится дышать, первые попытки грести руками.</p></div>
+            <div><b>Занятия 9–15</b><h4>Базовая техника</h4><p>Проплывает бассейн туда-обратно, осваивает один стиль — кроль или брасс.</p></div>
+            <div><b>Занятия 15+</b><h4>Уверенное плавание</h4><p>Плавает самостоятельно. Прямой путь в групповые занятия — расти вместе со сверстниками.</p></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="cine__slide">
+        <div class="h-scroll__card h-scroll__card--pool" id="pool-d">
+          <img class="h-scroll__pool-photo" src="img/pool-section.jpg" alt="Аквацентр «Дельфин»">
+          <div class="h-scroll__pool-body">
+            <span class="label label--light">ГДЕ ПРОХОДЯТ ЗАНЯТИЯ</span>
+            <h2 class="h-scroll__heading" style="margin:10px 0 16px;">Аквацентр «Дельфин»</h2>
+            <ul class="h-scroll__spec-list">
+              <li><span>Температура воды</span><b>29–30°C</b></li>
+              <li><span>Размер группы</span><b>До 6 человек</b></li>
+              <li><span>Адрес</span><b>Кишинёв, Ботаника</b></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="cine__slide">
+        <div class="h-scroll__card" id="for-whom-d">
+          <span class="label label--light">ДЛЯ КОГО ЭТО</span>
+          <h2 class="h-scroll__heading">Три разных пути — один результат</h2>
+          <div class="h-scroll__whom-grid">
+            <div><img src="img/format-individual.jpg" alt="Боится воды"><span>Пока боится воды и не заходит глубже бортика</span></div>
+            <div><img src="img/format-group.jpg" alt="Хочет расти в компании"><span>Уже держится на воде и хочет расти в компании</span></div>
+            <div><img src="img/confident.jpg" alt="Готов к глубине"><span>Готов почувствовать себя уверенно на глубине</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="cine__slide">
+        <div class="h-scroll__card" id="pricing-d">
+          <span class="label label--light">ЦЕНЫ И АБОНЕМЕНТЫ</span>
+          <h2 class="h-scroll__heading">Начните с бесплатного пробного занятия</h2>
+          <div class="h-scroll__formats-grid">
+            <div class="h-scroll__format">
+              <h3>Индивидуальные</h3>
+              <p>Абонемент 12 занятий · 300 MDL / занятие</p>
+              <div class="h-scroll__format-price">3600 MDL <span>выгоднее всего</span></div>
+              <a href="#final-cta" class="pill-btn pill-btn--sky">Записаться<span class="pill-btn__cap"><svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="#0b2545" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></a>
+            </div>
+            <div class="h-scroll__format">
+              <h3>Групповые</h3>
+              <p>Абонемент 12 занятий · 160 MDL / занятие</p>
+              <div class="h-scroll__format-price">1920 MDL <span>выгоднее всего</span></div>
+              <a href="#final-cta" class="pill-btn pill-btn--sky">Записаться<span class="pill-btn__cap"><svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="#0b2545" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="cine__slide">
+        <div class="h-scroll__card" id="reviews-d">
+          <span class="label label--light">ЧТО ГОВОРЯТ РОДИТЕЛИ</span>
+          <h2 class="h-scroll__heading">Три истории — три разных старта</h2>
+          <div class="h-scroll__reviews-grid">
+            <div><p>«Дочка год не заходила в бассейн дальше бортика — боялась панически. После третьего занятия с Виктором сама попросила «ещё поплавать». Не поверила, когда увидела, как она ныряет за кольцами.»</p><span>Мама, дочери 8 лет</span></div>
+            <div><p>«Начинали с индивидуальных — сын совсем не плавал. Через пару месяцев перешли в группу, там ему больше нравится: соревнуется с другими детьми, старается. Видно, что растёт.»</p><span>Папа, сыну 9 лет</span></div>
+            <div><p>«Сын и так немного плавал, но «как получится». После группы с Виктором появилась настоящая техника — учитель физкультуры в школе заметил разницу.»</p><span>Мама, сыну 10 лет</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="cine__slide">
+        <div class="h-scroll__card" id="golden-cta-d">
+          <span class="label label--light">ГОТОВЫ ПОПРОБОВАТЬ?</span>
+          <h2 class="h-scroll__heading">Первое занятие — бесплатно</h2>
+          <p class="h-scroll__closing" style="font-weight:400;margin-bottom:24px;">Ни к чему не обязывает. Приходите, познакомьтесь с тренером и бассейном.</p>
+          <a href="tel:+37369123456" class="pill-btn">Записаться на пробное<span class="pill-btn__cap"><svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></a>
+        </div>
+      </div>
+
+      <div class="cine__slide">
+        <div class="h-scroll__card h-scroll__card--faq" id="faq-d">
+          <span class="label label--light">ЧАСТЫЕ ВОПРОСЫ</span>
+          <h2 class="h-scroll__heading">Что спрашивают родители</h2>
+          <div class="h-scroll__faq-grid">
+            <div><b>Ребёнок совсем не умеет плавать и боится воды — это нормально для 7–10 лет?</b><span>Да, это частая ситуация — именно с ней Виктор работает больше всего, в комфортном для ребёнка темпе.</span></div>
+            <div><b>Что взять с собой на занятие?</b><span>Купальник, шапочку для плавания, полотенце, сланцы. Очки для плавания — по желанию, подберём на месте.</span></div>
+            <div><b>Можно ли присутствовать на занятии?</b><span>Да, из зоны наблюдения с видом на бассейн. Детали обсудим на пробном занятии.</span></div>
+            <div><b>Что если ребёнок заболел и пропустил занятия — абонемент сгорает?</b><span>Нет, при болезни занятия переносятся — абонемент не сгорает.</span></div>
+            <div><b>Нужно ли ребёнку уже уметь держаться на воде, чтобы попасть в группу?</b><span>Да, минимальный уровень — держаться на воде самостоятельно. Если пока нет, начинаем с индивидуальных.</span></div>
+            <div><b>Как понять, какой формат выбрать — индивидуальный или групповой?</b><span>Не нужно решать заранее — первое занятие пробное и один на один с тренером, он подскажет.</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="cine__slide">
+        <div class="h-scroll__card" id="final-cta-d">
+          <span class="label label--light">ЗАПИШИТЕ РЕБЁНКА</span>
+          <h2 class="h-scroll__heading">Готовы начать?</h2>
+          <p class="h-scroll__closing" style="font-weight:400;margin-bottom:24px;">Первое занятие — бесплатно и ни к чему не обязывает.</p>
+          <div class="hero__actions" style="margin-bottom:24px;">
+            <a href="tel:+37369123456" class="pill-btn">Позвонить<span class="pill-btn__cap"><svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></a>
+            <a href="https://t.me/delfin_swim_md" class="pill-btn pill-btn--sky">Написать в Telegram<span class="pill-btn__cap"><svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="#0b2545" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></a>
+          </div>
+          <div class="h-scroll__contacts">
+            <span>+373 69 123 456</span><span>@delfin_swim_md</span><span>Пн–сб, 9:00–20:00</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===== MOBILE FALLBACK (plain vertical layout, shown only under 768px — see .mobile-sections in CSS) ===== -->
+<div class="mobile-sections" id="mobileSections">
+
+<header class="mobile-hero">
+  <div class="mobile-hero__bg">
+    <video src="video/hero-swim-2-web.mp4" autoplay muted loop playsinline></video>
+  </div>
+  <div class="container mobile-hero__inner">
+    <span class="hero__badge">Аквацентр «Дельфин» · Кишинёв</span>
+    <h1 class="display mobile-hero__title">От первого страха воды — до уверенного кроля</h1>
+    <p class="hero__subtitle">Индивидуальные занятия для тех, кто в воду ещё не заходил, и групповые — для тех, кто уже готов расти.</p>
+    <div class="hero__actions">
+      <a href="#final-cta" class="pill-btn">Записаться<span class="pill-btn__cap"><svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></a>
+      <a href="#formats-m" class="pill-btn pill-btn--ghost">Форматы и цены<span class="pill-btn__cap"><svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="#0b2545" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></a>
+    </div>
+  </div>
+</header>
+
+<section class="stats">
+  <div class="container stats__grid">
+    <div class="stat"><b>200+</b><span>учеников научились плавать</span></div>
+    <div class="stat"><b>8 лет</b><span>опыта работы именно с детьми</span></div>
+    <div class="stat"><b>29–30°</b><span>комфортная температура воды</span></div>
+  </div>
+</section>
+
+<section class="pain">
+  <div class="container">
+    <div class="section-head">
+      <span class="label">ЗНАКОМАЯ СИТУАЦИЯ?</span>
+      <h2>Если это про вашего ребёнка — вы не одни</h2>
+    </div>
+    <div class="pain__grid">
+      <div class="pain__item">
+        <span class="pain__num">01</span>
+        <p>Ребёнок не заходит в воду глубже, чем по пояс, даже с кругом или нарукавниками.</p>
+      </div>
+      <div class="pain__item">
+        <span class="pain__num">02</span>
+        <p>На уроках физкультуры видно, что другие дети держатся на воде увереннее.</p>
+      </div>
+      <div class="pain__item">
+        <span class="pain__num">03</span>
+        <p>Уже пробовали групповые занятия — тренер не успевал уделить внимание, ребёнок сидел на бортике.</p>
+      </div>
+      <div class="pain__item">
+        <span class="pain__num">04</span>
+        <p>Плавает «по-своему», боится нырять и опускать лицо в воду, а научить самому не получается.</p>
+      </div>
+    </div>
+    <p class="pain__closing">Это не значит, что упущено время — значит, просто нужен формат, который подходит именно сейчас.</p>
+  </div>
+</section>
+
+<section class="formats" id="formats-m">
+  <div class="container">
+    <div class="section-head">
+      <span class="label">ВЫБЕРИТЕ ФОРМАТ</span>
+      <h2>Какой вариант подходит вашему ребёнку</h2>
+      <p class="formats__note">Не уверены, какой выбрать? Первое занятие всегда проходит индивидуально — тренер оценит уровень и подскажет, что лучше.</p>
+    </div>
+    <div class="formats__grid">
+      <div class="format-card">
+        <div class="format-card__media"><img src="img/format-individual.jpg" alt="Индивидуальное занятие плаванием"></div>
+        <div class="format-card__body">
+          <h3>Индивидуальные</h3>
+          <p class="format-card__for">Ребёнок не умеет плавать совсем, боится воды или нужен свой темп без сравнения с другими</p>
+          <ul class="format-card__specs">
+            <li>1 тренер — 1 ребёнок, 30–40 минут</li>
+            <li>Рекомендуем 2 раза в неделю</li>
+            <li>Программа под конкретного ребёнка</li>
+            <li>Короткий отчёт о прогрессе после каждого занятия</li>
+          </ul>
+          <div class="format-card__price">350 MDL <span>/ занятие</span></div>
+          <a href="#final-cta" class="pill-btn">Записаться<span class="pill-btn__cap"><svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></a>
+        </div>
+      </div>
+      <div class="format-card">
+        <div class="format-card__media"><img src="img/format-group.jpg" alt="Групповое занятие плаванием"></div>
+        <div class="format-card__body">
+          <h3>Групповые</h3>
+          <p class="format-card__for">Ребёнок уже держится на воде, хочет прогрессировать и любит соревновательный азарт со сверстниками</p>
+          <ul class="format-card__specs">
+            <li>Малые группы до 6 детей, 45 минут</li>
+            <li>Рекомендуем 2 раза в неделю</li>
+            <li>Техника: кроль, брасс</li>
+            <li>Игровые эстафеты для мотивации</li>
+          </ul>
+          <div class="format-card__price">180 MDL <span>/ занятие</span></div>
+          <a href="#final-cta" class="pill-btn">Записаться<span class="pill-btn__cap"><svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== TRAINER ===== -->
+<section class="trainer" id="trainer">
+  <div class="container">
+    <div class="trainer__top">
+      <div class="trainer__media"><img src="img/coach.jpg" alt="Виктор Кожокару, тренер по плаванию"></div>
+      <div>
+        <span class="label">О ТРЕНЕРЕ</span>
+        <h2 class="trainer__name" style="margin-top:12px;">Виктор Кожокару</h2>
+        <div class="trainer__creds">КМС по плаванию · 8 лет работы с детьми · специализация — водобоязнь</div>
+        <p class="trainer__bio">В спортивное плавание пришёл в 9 лет, выступал за юниорскую сборную. Тренирует детей больше 8 лет — и за это время понял: с испуганным ребёнком работает не техника, а терпение. Свою методику строил вокруг одного правила — никогда не заставлять, только предлагать следующий маленький шаг.</p>
+      </div>
+    </div>
+    <div class="method__stack">
+      <div class="method__item">
+        <span class="method__num">01</span>
+        <div><h4>Безопасность прежде всего</h4><p>Рядом с ребёнком в воде, никаких «бросить и пусть выплывает»</p></div>
+      </div>
+      <div class="method__item">
+        <span class="method__num">02</span>
+        <div><h4>Маленькие шаги</h4><p>На каждом занятии один понятный результат, без ощущения неудачи</p></div>
+      </div>
+      <div class="method__item">
+        <span class="method__num">03</span>
+        <div><h4>Игра, а не тренировка</h4><p>В этом возрасте плавание учится через игру, а не через дисциплину</p></div>
+      </div>
+      <div class="method__item">
+        <span class="method__num">04</span>
+        <div><h4>Обратная связь родителю</h4><p>После занятия — что получилось и над чем работаем дальше</p></div>
+      </div>
+    </div>
+    <blockquote class="pull-quote">
+      «Я не тороплю ребёнка. Моя задача — чтобы он сам захотел заплыть на глубину.»
+      <cite>— Виктор Кожокару</cite>
+    </blockquote>
+  </div>
+</section>
+
+<!-- ===== PROGRESS ===== -->
+<section class="progress">
+  <div class="container">
+    <div class="section-head">
+      <span class="label">ЧЕГО ОЖИДАТЬ</span>
+      <h2>Путь от первого занятия до уверенного заплыва</h2>
+      <p>Прогресс индивидуален, но обычно это выглядит так</p>
+    </div>
+    <div class="progress__steps">
+      <div class="progress__step-circle is-active">1</div>
+      <div class="progress__step-line"></div>
+      <div class="progress__step-circle">2</div>
+      <div class="progress__step-line"></div>
+      <div class="progress__step-circle">3</div>
+      <div class="progress__step-line"></div>
+      <div class="progress__step-circle">4</div>
+    </div>
+    <div class="progress__grid">
+      <div class="progress__item">
+        <div class="progress__range">Занятия 1–3</div>
+        <h3>Знакомство с водой</h3>
+        <p>Игры у бортика, привыкание к воде, первые погружения лица — только когда ребёнок сам готов.</p>
+      </div>
+      <div class="progress__item">
+        <div class="progress__range">Занятия 4–8</div>
+        <h3>Первые движения</h3>
+        <p>Держится на воде самостоятельно, учится дышать, первые попытки грести руками.</p>
+      </div>
+      <div class="progress__item">
+        <div class="progress__range">Занятия 9–15</div>
+        <h3>Базовая техника</h3>
+        <p>Проплывает бассейн туда-обратно, осваивает один стиль — кроль или брасс.</p>
+      </div>
+      <div class="progress__item">
+        <div class="progress__range">Занятия 15+</div>
+        <h3>Уверенное плавание</h3>
+        <p>Плавает самостоятельно. Отсюда — прямой путь в групповые занятия, расти дальше вместе со сверстниками.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== POOL ===== -->
+<section class="pool" id="pool">
+  <div class="container pool__inner">
+    <div class="pool__media"><img src="img/pool-section.jpg" alt="Аквацентр «Дельфин»"></div>
+    <div class="pool__content">
+      <span class="label">ГДЕ ПРОХОДЯТ ЗАНЯТИЯ</span>
+      <h2 class="display" style="font-size:30px;margin:12px 0 16px;color:var(--ink);">Аквацентр «Дельфин»</h2>
+      <p style="color:var(--ink-soft);max-width:420px;">Тёплая вода, маленькие группы и место, откуда видно весь бассейн — можно быть рядом, не мешая занятию.</p>
+      <ul class="spec-list">
+        <li><span class="k">Температура воды</span><span class="v">29–30°C</span></li>
+        <li><span class="k">Глубина</span><span class="v">Детская чаша, 0,6–1,2 м</span></li>
+        <li><span class="k">Размер группы</span><span class="v">До 6 человек</span></li>
+        <li><span class="k">Для родителей</span><span class="v">Зона наблюдения с видом на воду</span></li>
+        <li><span class="k">Адрес</span><span class="v">Кишинёв, Ботаника, ул. Сармизегетуза</span></li>
+        <li><span class="k">Часы работы</span><span class="v">Пн–сб, 9:00–20:00</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOR WHOM ===== -->
+<section class="for-whom">
+  <div class="container">
+    <div class="section-head section-head--center" style="margin-left:auto;margin-right:auto;">
+      <span class="label">ДЛЯ КОГО ЭТО</span>
+      <h2>Три разных пути — один результат</h2>
+    </div>
+    <div class="for-whom__grid">
+      <div class="for-whom__card">
+        <img src="img/format-individual.jpg" alt="Для тех, кто боится воды">
+        <div class="for-whom__label">Для тех, кто пока боится воды и не заходит глубже бортика</div>
+      </div>
+      <div class="for-whom__card">
+        <img src="img/format-group.jpg" alt="Для тех, кто хочет расти в компании">
+        <div class="for-whom__label">Для тех, кто уже держится на воде и хочет расти в компании</div>
+      </div>
+      <div class="for-whom__card">
+        <img src="img/confident.jpg" alt="Для тех, кто готов к уверенному плаванию">
+        <div class="for-whom__label">Для тех, кто готов почувствовать себя уверенно на глубине</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PRICING ===== -->
+<section class="pricing" id="pricing">
+  <div class="container">
+    <div class="section-head">
+      <span class="label">ЦЕНЫ И АБОНЕМЕНТЫ</span>
+      <h2>Начните с бесплатного пробного занятия</h2>
+      <p>Никаких обязательств — приходите, познакомьтесь с тренером и бассейном, и решайте дальше.</p>
+    </div>
+    <div class="pricing__grid">
+      <div class="price-card">
+        <div class="drop-badge"><span class="drop-badge__text">Пробное<br>бесплатно</span></div>
+        <h3>Индивидуальные</h3>
+        <div class="price-row"><div class="price-row__label">Пробное занятие</div><div class="price-row__value">Бесплатно</div></div>
+        <div class="price-row"><div class="price-row__label">Абонемент · 8 занятий<small>320 MDL / занятие</small></div><div class="price-row__value">2560 MDL</div></div>
+        <div class="price-row price-row--best"><div class="price-row__label">Абонемент · 12 занятий<small>300 MDL / занятие — выгоднее всего</small></div><div class="price-row__value">3600 MDL</div></div>
+      </div>
+      <div class="price-card">
+        <div class="drop-badge"><span class="drop-badge__text">Пробное<br>бесплатно</span></div>
+        <h3>Групповые</h3>
+        <div class="price-row"><div class="price-row__label">Пробное занятие</div><div class="price-row__value">Бесплатно</div></div>
+        <div class="price-row"><div class="price-row__label">Абонемент · 8 занятий<small>170 MDL / занятие</small></div><div class="price-row__value">1360 MDL</div></div>
+        <div class="price-row price-row--best"><div class="price-row__label">Абонемент · 12 занятий<small>160 MDL / занятие — выгоднее всего</small></div><div class="price-row__value">1920 MDL</div></div>
+      </div>
+    </div>
+    <p class="pricing__note">Также можно оплачивать отдельные занятия без абонемента — по базовой цене 350 / 180 MDL.</p>
+  </div>
+</section>
+
+<!-- ===== REVIEWS ===== -->
+<section class="reviews" id="reviews">
+  <div class="container">
+    <div class="section-head section-head--center" style="margin-left:auto;margin-right:auto;">
+      <span class="label">ЧТО ГОВОРЯТ РОДИТЕЛИ</span>
+      <h2>Три истории — три разных старта</h2>
+    </div>
+    <div class="reviews__grid">
+      <div class="review-card">
+        <p class="review-card__quote">«Дочка год не заходила в бассейн дальше бортика — боялась панически. После третьего занятия с Виктором сама попросила «ещё поплавать». Не поверила, когда увидела, как она ныряет за кольцами.»</p>
+        <div class="review-card__author">Мама, дочери 8 лет</div>
+      </div>
+      <div class="review-card">
+        <p class="review-card__quote">«Начинали с индивидуальных — сын совсем не плавал. Через пару месяцев перешли в группу, там ему больше нравится: соревнуется с другими детьми, старается. Видно, что растёт.»</p>
+        <div class="review-card__author">Папа, сыну 9 лет</div>
+      </div>
+      <div class="review-card">
+        <p class="review-card__quote">«Сын и так немного плавал, но «как получится». После группы с Виктором появилась настоящая техника — учитель физкультуры в школе заметил разницу.»</p>
+        <div class="review-card__author">Мама, сыну 10 лет</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== GOLDEN CTA ===== -->
+<section class="golden-cta">
+  <div class="container golden-cta__inner">
+    <span class="label" style="color:var(--sky);">ГОТОВЫ ПОПРОБОВАТЬ?</span>
+    <h2 class="display" style="margin-top:12px;">Первое занятие — бесплатно</h2>
+    <p>Ни к чему не обязывает. Приходите, познакомьтесь с тренером и бассейном.</p>
+    <a href="tel:+37369123456" class="pill-btn">Записаться на пробное<span class="pill-btn__cap"><svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></a>
+  </div>
+</section>
+
+<!-- ===== FAQ ===== -->
+<section class="faq" id="faq-m">
+  <div class="container faq__inner">
+    <div class="faq__list">
+      <div class="section-head" style="margin-bottom:28px;">
+        <span class="label">ЧАСТЫЕ ВОПРОСЫ</span>
+        <h2>Что спрашивают родители</h2>
+      </div>
+      <div class="faq-item">
+        <button class="faq-item__q"><span>Ребёнок совсем не умеет плавать и боится воды — это нормально для 7–10 лет?</span><span class="faq-item__icon">+</span></button>
+        <div class="faq-item__a"><p>Да, это частая ситуация, и именно с ней Виктор работает больше всего. Начинаем с индивидуальных занятий в комфортном для ребёнка темпе — без «заставить» и «перетерпеть».</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-item__q"><span>Что взять с собой на занятие?</span><span class="faq-item__icon">+</span></button>
+        <div class="faq-item__a"><p>Купальник или плавки, шапочку для плавания, полотенце, сланцы. Если у ребёнка есть любимые очки для плавания — берите, но необязательно, подберём на месте.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-item__q"><span>Можно ли присутствовать на занятии?</span><span class="faq-item__icon">+</span></button>
+        <div class="faq-item__a"><p>Да, в зоне наблюдения с видом на бассейн. На первых индивидуальных занятиях иногда советуем не отвлекать ребёнка — обсудим это на пробном.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-item__q"><span>Что если ребёнок заболел и пропустил занятия — абонемент сгорает?</span><span class="faq-item__icon">+</span></button>
+        <div class="faq-item__a"><p>Нет. При болезни занятия переносятся на срок болезни — абонемент не сгорает.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-item__q"><span>Нужно ли ребёнку уже уметь держаться на воде, чтобы попасть в группу?</span><span class="faq-item__icon">+</span></button>
+        <div class="faq-item__a"><p>Да, минимальный уровень — самостоятельно держаться на воде. Если пока нет — начинаем с индивидуальных, и как только будет готов, переходим в группу.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-item__q"><span>Как понять, какой формат выбрать — индивидуальный или групповой?</span><span class="faq-item__icon">+</span></button>
+        <div class="faq-item__a"><p>Не нужно решать заранее — первое занятие всегда пробное и один на один с тренером, по итогам он подскажет.</p></div>
+      </div>
+    </div>
+    <div class="faq__media"><img src="img/faq.jpg" alt="Ребёнок после занятия плаванием"></div>
+  </div>
+</section>
+
+<!-- ===== FINAL CTA ===== -->
+<section class="final-cta" id="final-cta-m">
+  <div class="container final-cta__inner">
+    <span class="label">ЗАПИШИТЕ РЕБЁНКА</span>
+    <h2 class="display" style="margin-top:12px;">Готовы начать?</h2>
+    <p class="final-cta__sub">Первое занятие — бесплатно и ни к чему не обязывает. Приходите, познакомимся.</p>
+    <div class="final-cta__actions">
+      <a href="tel:+37369123456" class="pill-btn">Позвонить<span class="pill-btn__cap"><svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></a>
+      <a href="https://t.me/delfin_swim_md" class="pill-btn pill-btn--sky">Написать в Telegram<span class="pill-btn__cap" ><svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></a>
+    </div>
+    <div class="final-cta__contacts">
+      <div><span class="k">Телефон</span><span class="v">+373 69 123 456</span></div>
+      <div><span class="k">Telegram</span><span class="v">@delfin_swim_md</span></div>
+      <div><span class="k">Адрес</span><span class="v">Кишинёв, Ботаника, ул. Сармизегетуза</span></div>
+      <div><span class="k">Часы работы</span><span class="v">Пн–сб, 9:00–20:00</span></div>
+    </div>
+  </div>
+</section>
+
+</div><!-- /.mobile-sections -->
+
+<footer class="site-footer">
+  <div class="container site-footer__inner">
+    <span>Аквацентр «Дельфин» © 2026</span>
+    <span>Кишинёв, Молдова</span>
+  </div>
+</footer>
+
+<script>
+  var toggle = document.getElementById('navToggle');
+  toggle.addEventListener('click', function () {
+    document.querySelector('.nav__links').classList.toggle('is-open');
+  });
+
+  var navEl = document.querySelector('.nav');
+  function updateNavBg() {
+    navEl.classList.toggle('nav--solid', window.scrollY > 40);
+  }
+  updateNavBg();
+  window.addEventListener('scroll', updateNavBg, { passive: true });
+
+  document.querySelectorAll('.faq-item').forEach(function (item) {
+    var btn = item.querySelector('.faq-item__q');
+    var answer = item.querySelector('.faq-item__a');
+    btn.addEventListener('click', function () {
+      var isOpen = item.classList.contains('is-open');
+      document.querySelectorAll('.faq-item.is-open').forEach(function (open) {
+        open.classList.remove('is-open');
+        open.querySelector('.faq-item__a').style.maxHeight = null;
+      });
+      if (!isOpen) {
+        item.classList.add('is-open');
+        answer.style.maxHeight = answer.scrollHeight + 'px';
+      }
+    });
+  });
+
+  function zeroText(text) {
+    return text.replace(/\d+/g, '0');
+  }
+  function animateCount(el, finalText) {
+    var matches = finalText.match(/\d+/g);
+    if (!matches) return;
+    var duration = 1400;
+    var start = performance.now();
+    function frame(now) {
+      var progress = Math.min((now - start) / duration, 1);
+      var eased = 1 - Math.pow(1 - progress, 3);
+      var i = 0;
+      el.textContent = finalText.replace(/\d+/g, function () {
+        var target = parseInt(matches[i++], 10);
+        return Math.round(target * eased);
+      });
+      if (progress < 1) requestAnimationFrame(frame);
+    }
+    requestAnimationFrame(frame);
+  }
+
+  var statEls = document.querySelectorAll('.stat b');
+  statEls.forEach(function (el) {
+    el.dataset.final = el.textContent;
+    el.textContent = zeroText(el.textContent);
+  });
+  var statObserver = new IntersectionObserver(function (entries) {
+    entries.forEach(function (entry) {
+      if (entry.isIntersecting) {
+        animateCount(entry.target, entry.target.dataset.final);
+        statObserver.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.4 });
+  statEls.forEach(function (el) { statObserver.observe(el); });
+
+  (function () {
+    var section = document.getElementById('cine');
+    var media = document.getElementById('cineMedia');
+    var track = document.getElementById('cineTrack');
+    var badge = document.getElementById('heroExpandBadge');
+    var foot = document.getElementById('heroExpandFoot');
+    var titleLeft = document.getElementById('titleLeft');
+    var titleRight = document.getElementById('titleRight');
+    if (!section || !media || !track || !badge || !foot || !titleLeft || !titleRight) return;
+
+    var slideCount = track.children.length;
+    var GROW_VH = 250;
+    var HOLD_VH = 60;   // pause after the video is fully grown, before the track starts sliding
+    var TRANSITION_VH = 100;
+
+    // Below 768px .cine is display:none (see CSS) and .mobile-sections takes over —
+    // skip the scroll-jack math there entirely, it's wasted work on a hidden element.
+    function isDesktopMode() { return window.matchMedia('(min-width: 769px)').matches; }
+
+    var vw = window.innerWidth;
+    var vh = window.innerHeight;
+    function measure() {
+      vw = window.innerWidth;
+      vh = window.innerHeight;
+    }
+    measure();
+
+    function lerp(a, b, t) { return a + (b - a) * t; }
+    function clamp(v, min, max) { return Math.max(min, Math.min(max, v)); }
+    function easeInOut(t) { return t < 0.5 ? 2 * t * t : 1 - Math.pow(-2 * t + 2, 2) / 2; }
+
+    function update() {
+      if (!isDesktopMode()) return;
+      var rect = section.getBoundingClientRect();
+      var scrolledPx = clamp(0 - rect.top, 0, rect.height - vh);
+
+      var growEndPx = GROW_VH / 100 * vh;
+      var transitionPx = TRANSITION_VH / 100 * vh;
+
+      var growProgress = growEndPx > 0 ? clamp(scrolledPx / growEndPx, 0, 1) : 1;
+      var eased = easeInOut(growProgress);
+
+      var restW = Math.min(340, vw * 0.7);
+      var restH = Math.min(240, vh * 0.62);
+      var finalW = vw * 1;
+      var finalH = vh * 1;
+
+      var w = lerp(restW, finalW, eased);
+      var h = lerp(restH, finalH, eased);
+      media.style.width = w + 'px';
+      media.style.height = h + 'px';
+      var restLeft = (vw - restW) / 1.12;
+      var restTop = (vh - restH) / 2;
+      media.style.left = lerp(restLeft, 0, eased) + 'px';
+      media.style.top = lerp(restTop, 0, eased) + 'px';
+      media.style.borderRadius = lerp(12, 0, eased) + 'px';
+
+      section.style.setProperty('--bg-opacity', 1 - growProgress * 0.85);
+
+      var holdPx = HOLD_VH / 100 * vh;
+      var afterHold = clamp(scrolledPx - growEndPx - holdPx, 0, (slideCount - 1) * transitionPx);
+      var trackProgress = transitionPx > 0 ? afterHold / transitionPx : 0;
+      track.style.transform = 'translateX(-' + (trackProgress * 100) + 'vw)';
+    }
+
+    var style = document.createElement('style');
+    style.textContent = '#cine .cine__bg::after { opacity: var(--bg-opacity, 1); }';
+    document.head.appendChild(style);
+
+    var ticking = false;
+    function onScroll() {
+      if (!isDesktopMode()) return;
+      if (!ticking) {
+        requestAnimationFrame(function () { update(); ticking = false; });
+        ticking = true;
+      }
+    }
+    window.addEventListener('scroll', onScroll, { passive: true });
+    window.addEventListener('resize', function () { measure(); update(); });
+    if (isDesktopMode()) update();
+
+    // Nav links (Форматы/Тренер/Бассейн/Цены/Отзывы) point at ids that live inside the
+    // pinned horizontal track on desktop — a plain anchor jump lands in the wrong place
+    // there, since the track's scroll-driven position doesn't match its document offset.
+    // On mobile those same ids point at the plain vertical fallback sections instead,
+    // where native anchor behavior already works — so only intercept on desktop.
+    function scrollToSlide(index) {
+      var growEndPx = GROW_VH / 100 * window.innerHeight;
+      var holdPx = HOLD_VH / 100 * window.innerHeight;
+      var transitionPx = TRANSITION_VH / 100 * window.innerHeight;
+      var top = section.offsetTop + growEndPx + holdPx + index * transitionPx;
+      window.scrollTo({ top: top, behavior: 'smooth' });
+    }
+    var slideMap = { '#formats': 3, '#trainer': 4, '#pool': 6, '#pricing': 8, '#reviews': 9, '#faq': 11, '#final-cta': 12 };
+    var mobileIdMap = { '#formats': 'formats-m', '#trainer': 'trainer', '#pool': 'pool', '#pricing': 'pricing', '#reviews': 'reviews', '#faq': 'faq-m', '#final-cta': 'final-cta-m' };
+    Object.keys(slideMap).forEach(function (href) {
+      document.querySelectorAll('a[href="' + href + '"]').forEach(function (a) {
+        a.addEventListener('click', function (e) {
+          if (isDesktopMode()) {
+            e.preventDefault();
+            scrollToSlide(slideMap[href]);
+          } else {
+            var el = document.getElementById(mobileIdMap[href]);
+            if (el) {
+              e.preventDefault();
+              el.scrollIntoView({ behavior: 'smooth' });
+            }
+          }
+        });
+      });
+    });
+  })();
+</script>
+
+</body>
+</html>
